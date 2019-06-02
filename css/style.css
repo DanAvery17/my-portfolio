@@ -160,7 +160,7 @@ html{
 }
 
 #my-works{
-    background-color: #00C4EC;
+    background-color: rgba(0, 141, 211, 1);
     margin: 0;
     padding-top: 8vh;
 }
@@ -169,6 +169,7 @@ html{
     border-left: 5px solid white;
     color: white;
     padding-left: 2vw;
+    padding-top: 6vw;
     font-family: Avenir;
 }
 
@@ -178,9 +179,22 @@ html{
 
 .work-section-header{
     font-weight: 600;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
+#defense-carousel{
+    height: 75vh;
+    opacity: 0.8;
+}
+
+.defense-img-cont{
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.defense-img-cont img{
+    border-radius: 5px;
+}
 
 
 
@@ -221,6 +235,7 @@ html{
     #work-section-header-cont{
         border-left: none;
         text-align: center !important;
+        padding-top: 0;
     }
     
     #work-section-header-cont p{
@@ -230,8 +245,13 @@ html{
     
     .work-section-header{
         font-weight: 600;
-        font-size: 5vw;
+        font-size: 8vw;
         border-bottom: 5px solid white;
         padding-bottom: 2vw;
+    }
+
+    #defense-carousel{
+        height: 35vh;
+        margin-top: 3vh;
     }
 }
