@@ -362,6 +362,7 @@ section#my-projects{
 
     .project-box{
         margin-top: 3vw;
+        background-color: #EBF6FE;
     }
 
     .project-box-header{
@@ -380,6 +381,7 @@ section#my-projects{
     .project-box-header p{
         position: unset;
         text-align: center;
+        margin: 0 0 0 0;
     }
 
     .project-box-header span.icon-title{
@@ -391,6 +393,16 @@ section#my-projects{
         margin-top: 1em;
         font-size: 6vw;
         color: #454545;
+        padding-bottom: 1vw; 
+    }
+
+    .project-box-footer h6{
+        /* margin-top: 2vw; */
+        font-size: 25px;
+        padding: 1vw 1vw 1vw 1vw;
+        width: auto;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
     
 }
