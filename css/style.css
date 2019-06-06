@@ -207,6 +207,7 @@ html{
     box-shadow: 0px 0px 7px 2px rgba(140,137,140,1);
     overflow: hidden;
     height: 20vh;
+    transition: 0.5s;
 }
 
 .project-box-header{
@@ -214,7 +215,7 @@ html{
     font-weight: 600;
     font-size: 1.3vw;
     color: white;
-    padding: 10% 10% 15% 8%;
+    padding: 10% 10% 15% 6%;
     background: linear-gradient(to right, #0064AA, #00B2FA);
     border-radius: 50%;
     width: 4.5vw;
@@ -225,7 +226,24 @@ html{
     transition: 0.5s;
 }
 
-.project-box-header:hover{
+.header-laravel{
+    padding: 10% 10% 15% 5%;
+}
+
+.ph-t2{
+    background: linear-gradient(to right, #B95F00, #FFA546);
+}
+
+.ph-t3{
+    background: linear-gradient(to right, #259E91, #00EAD2);
+}
+
+.project-box:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.project-box:hover .project-box-header{
     transition: 0.5s;
     margin-left: -15%;
     border-radius: 0;
@@ -233,12 +251,12 @@ html{
 
 }
 
-.project-box-header:hover .header-icon{
+.project-box:hover .header-icon{
     transform: scale(1.3);
     transition: 0.5s;
 }
 
-.project-box-header:hover span.icon-title{
+.project-box:hover span.icon-title{
     display: inline-block !important;
     transition: 1s;
     margin-left: 2vw;
@@ -293,8 +311,46 @@ section#my-projects{
     background-color: #05717A;
 }
 
+.project-box-footer h6.laravel{
+    color: #FFFAF7;
+    background-color: #D06003;
+}
+
+.project-box-footer h6.asp{
+    background-color: #30A48F;
+    color: #00FFD1;
+}
+
 .tech-cont{
     float: right;
+}
+
+#pb-1, #pb-2, #pb-3{
+    background-color: #EBF6FE;
+}
+
+#pb-4, #pb-5, #pb-6, #pb-7{
+    background-color: #FFFAF6;
+}
+
+#pb-7, #pb-8{
+    font-size: 10px;
+}
+
+#pb-8{
+    background-color: #F2FFFE;
+}
+
+.project-box-content .pb-t2-span{
+    color: #D08433;
+}
+
+.project-box-content .pb-t3-span{
+    color: #2AA583;
+}
+
+.sl-content{
+    margin-top: 1.5vw;
 }
 
 
@@ -362,7 +418,6 @@ section#my-projects{
 
     .project-box{
         margin-top: 3vw;
-        background-color: #EBF6FE;
     }
 
     .project-box-header{
