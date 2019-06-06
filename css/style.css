@@ -238,6 +238,14 @@ html{
     background: linear-gradient(to right, #259E91, #00EAD2);
 }
 
+.ph-t4{
+    background: linear-gradient(to right, #4B0797, #C796FF);
+}
+
+.ph-t5{
+    background: linear-gradient(to right, #002B95, #2765FF)
+}
+
 .project-box:hover{
     transform: scale(1.1);
     transition: 0.5s;
@@ -275,6 +283,7 @@ html{
 
 section#my-projects{
     padding-top: 5em;
+    padding-bottom: 5em;
     font-family: 'Arial Rounded MT Bold';
 }
 
@@ -321,6 +330,16 @@ section#my-projects{
     color: #00FFD1;
 }
 
+.project-box-footer h6.wix{
+    background-color: #4B0797;
+    color: #C796FF;
+}
+
+.project-box-footer h6.html{
+    background-color: #183886;
+    color: #ABC4FF;
+}
+
 .tech-cont{
     float: right;
 }
@@ -329,16 +348,21 @@ section#my-projects{
     background-color: #EBF6FE;
 }
 
-#pb-4, #pb-5, #pb-6, #pb-7{
+#pb-4, #pb-5, #pb-6{
     background-color: #FFFAF6;
 }
 
-#pb-7, #pb-8{
-    font-size: 10px;
+#pb-7{
+    background-color: #F1E4FF;
 }
 
 #pb-8{
     background-color: #F2FFFE;
+    font-size: 10px;
+}
+
+#pb-9{
+    background-color: #D4E0FF; 
 }
 
 .project-box-content .pb-t2-span{
@@ -347,6 +371,14 @@ section#my-projects{
 
 .project-box-content .pb-t3-span{
     color: #2AA583;
+}
+
+.project-box-content .pb-t4-span{
+    color: #592890;
+}
+
+.project-box-content .pb-t5-span{
+    color: #1A3A87;
 }
 
 .sl-content{
@@ -427,6 +459,22 @@ section#my-projects{
         width: 150%;
         height: 4vw;
         font-size: 4vw;
+    }
+
+    .ph-t2{
+        background: linear-gradient(to right, #B95F00, #FFA546);
+    }
+    
+    .ph-t3{
+        background: linear-gradient(to right, #259E91, #00EAD2);
+    }
+    
+    .ph-t4{
+        background: linear-gradient(to right, #4B0797, #C796FF);
+    }
+    
+    .ph-t5{
+        background: linear-gradient(to right, #002B95, #2765FF)
     }
 
     .header-icon{
