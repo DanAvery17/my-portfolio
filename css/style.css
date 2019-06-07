@@ -246,6 +246,115 @@ html{
     background: linear-gradient(to right, #002B95, #2765FF)
 }
 
+#devbook-desc{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5;
+}
+
+#devbook-pb:hover #devbook-desc{
+    height: 100%;
+    transition: 0.5s;
+}
+
+#studyfy-desc{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#studyfy-pb:hover #studyfy-desc{
+    height: 100%;
+    transition: 0.5s;
+}
+
+#ios-calcu-desc{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#ios-calcu-pb:hover #ios-calcu-desc{
+    height: 100%;
+    transition: 0.5s;
+}
+
+#suite-desc{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#suite-pb:hover #suite-desc{
+    height: 100%;
+    transition: 0.5s;
+}
+
+#lvcc-ls-desc{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5;
+}
+
+#lvcc-ls-pb:hover #lvcc-ls-desc{
+    height: 100%;
+    transition: 0.5s;
+}
+
+#sa-desc{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#sa-pb:hover #sa-desc{
+    height: 100%;
+    transition: 0.5s;
+}
+
+#merch-desc{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#merch-pb:hover #merch-desc{
+    height: 100%;
+    transition: 0.5s;
+}
+
+#abt-desc{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#abt-pb:hover #abt-desc{
+    height: 100%;
+    transition: 0.5s;
+}
+
+#lvoas-desc{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5;
+}
+
+#lvoas-pb:hover #lvoas-desc{
+    height: 100%;
+    transition: 0.5s;
+}
+
+.desc-cont{
+    padding: 5% 5% 5% 5%;
+    background-color: rgba(33, 34, 34, 0.8);
+    color: white;
+}
+
+.desc-cont hr{
+    background-color: white;
+}
+
 .project-box:hover{
     transform: scale(1.1);
     transition: 0.5s;
@@ -285,6 +394,12 @@ section#my-projects{
     padding-top: 5em;
     padding-bottom: 5em;
     font-family: 'Arial Rounded MT Bold';
+}
+
+section#my-projects h1{
+    color: #0075C6;
+    letter-spacing: 2px;
+    font-size: 4vw;
 }
 
 .project-box-content{
@@ -383,6 +498,26 @@ section#my-projects{
 
 .sl-content{
     margin-top: 1.5vw;
+}
+
+section#logos{
+    background-color: #393F3F;
+    padding: 5% 0 5% 0; 
+}
+
+#logos h1{
+    color: #03E8EC;
+    font-family: Avenir;
+    font-size: 4vw;
+}
+
+figcaption{
+    font-size: 20px !important;
+    font-family: Avenir;
+}
+
+#moonshot{
+    height: 52vh;
 }
 
 
