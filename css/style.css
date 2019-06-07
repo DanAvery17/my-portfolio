@@ -514,13 +514,61 @@ section#logos{
 figcaption{
     font-size: 20px !important;
     font-family: Avenir;
+    font-style: italic;
 }
 
 #moonshot{
     height: 52vh;
 }
 
+#footer{
+    padding: 5% 10% 5% 10%;
+    background-color: #1C1C1C;
+    font-family: Avenir;
+    color: #747676;
+}
 
+.sm-icons{
+    height: 2vw;
+    width: 2vw;
+}
+
+#social-media a:hover{
+    text-decoration: none;
+}
+
+#technologies ul{
+    display: block;
+}
+
+#technologies ul li{
+    display: inline-block;
+}
+
+#technologies ul li h2{
+    padding: 0 25% 0 25%;
+    font-size: 80px !important;
+}
+
+#ack{
+    line-height: 40px;
+}
+
+.fa-html5{
+    color: #007BDC;
+}
+
+.fa-js-square{
+    color: #DC8C00;
+}
+
+.fa-css3-alt{
+    color: #A300DC;
+}
+
+.fa-bootstrap{
+    color: #6700DC;
+}
 
 /* ================================================================================================================ */
 
