@@ -249,7 +249,7 @@ html{
 #devbook-desc{
     height: 0;
     overflow: hidden;
-    transition: 0.5;
+    transition: 0.5s;
 }
 
 #devbook-pb:hover #devbook-desc{
